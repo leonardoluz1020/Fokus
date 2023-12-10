@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .app__card-button.active {
-    border-radius: 0.8rem;
+    border-radius: 0.9rem;
     background: var(--azul-royal);
     font-weight: 600;
 }
