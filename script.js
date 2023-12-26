@@ -17,7 +17,7 @@ const audioPlay = new Audio('./sons/play.wav');
 const audioPausar = new Audio('./sons/pause.mp3');
 const audioTempoFinalizado = new Audio('./sons/beep.mp3');
 
-let tempoDecorridoEmSegundos = 1500;
+let tempoDecorridoEmSegundos = 25;
 let intervaloId = null;
 musica.loop = true;
 
@@ -32,7 +32,7 @@ musicaFocoInput.addEventListener('change', () => {
 })
 
 focoBtn.addEventListener('click', () => {
-    tempoDecorridoEmSegundos = 1500
+    tempoDecorridoEmSegundos = 25
     alterarContexto('foco');
     focoBtn.classList.add('active');
 })
